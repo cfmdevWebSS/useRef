@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import SimpleRef from "./SimpleRef";
 import SimpleCallbackRef from "./SimpleCallbackRef";
+import SimpleCallbackRefRerender from "./SimpleCallbackRefRerender";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
         <SimpleRef />
         <br />
         <SimpleCallbackRef />
+        <br />
+        <SimpleCallbackRefRerender />
       </header>
     </div>
   );
