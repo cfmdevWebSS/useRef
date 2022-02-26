@@ -1,6 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import SimpleRef from "./SimpleRef";
+import SimpleCallbackRef from "./SimpleCallbackRef";
 
 function App() {
   return (
@@ -18,6 +20,10 @@ function App() {
         >
           Learn React
         </a>
+        <br />
+        <SimpleRef />
+        <br />
+        <SimpleCallbackRef />
       </header>
     </div>
   );
