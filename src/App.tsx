@@ -4,6 +4,7 @@ import "./App.css";
 import SimpleRef from "./SimpleRef";
 import SimpleCallbackRef from "./SimpleCallbackRef";
 import SimpleCallbackRefRerender from "./SimpleCallbackRefRerender";
+import CallbackRefDynamicChild from "./CallbackRefDynamicChild";
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
         <SimpleCallbackRef />
         <br />
         <SimpleCallbackRefRerender />
+        <br />
+        <CallbackRefDynamicChild />
       </header>
     </div>
   );
